@@ -1,4 +1,4 @@
-from tyres.tyre import Tyre
+from tyre import Tyre
 import numpy as np
 
 class Carrigan(Tyre):
