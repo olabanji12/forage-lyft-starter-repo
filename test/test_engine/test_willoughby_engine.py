@@ -1,6 +1,6 @@
 import unittest
 
-from engine.willoughby_engine import Willoughby
+from engines.willoughby_engine import Willoughby
 
 
 class TestWilloughbyEngine(unittest.TestCase):

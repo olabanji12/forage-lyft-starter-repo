@@ -1,7 +1,7 @@
 import unittest
 from datetime import date
 
-from battery.spindler_battery import Spindler
+from batteries.spindler_battery import Spindler
 
 
 class TestSpindlerBattery(unittest.TestCase):

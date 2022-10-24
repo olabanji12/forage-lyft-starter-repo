@@ -1,6 +1,6 @@
 import unittest
 
-from engine.capulet_engine import Capulet
+from engines.capulet_engine import Capulet
 
 
 class TestCapuletEngine(unittest.TestCase):
