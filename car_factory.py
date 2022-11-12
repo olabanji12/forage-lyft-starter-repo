@@ -1,11 +1,15 @@
 from car import Car # imports Car class from car.py to be able to use the consructor
-from batteries.nubbin_battery import Nubbin # imports Nubbin class from nubbin_battery.py to be able to use the consructor
-from batteries.spindler_battery import Spindler # imports Spindler class from spindler_battery.py to be able to use the consructor
-from engines.capulet_engine import Capulet # imports Capulet class from capulet_engine.py to be able to use the consructor
-from engines.sternman_engine import Sternman # imports Sternman class from sternman_engine.py to be able to use the consructor
-from engines.willoughby_engine import Willoughby # imports Willoughby class from willoughby_engine.py to be able to use the consructor
-from tyres.carrigan_tyre import Carrigan
-from tyres.octoprime_tyre import Octoprime
+# from batteries.nubbin_battery import Nubbin # imports Nubbin class from nubbin_battery.py to be able to use the consructor
+# from batteries.spindler_battery import Spindler # imports Spindler class from spindler_battery.py to be able to use the consructor
+# from engines.capulet_engine import Capulet # imports Capulet class from capulet_engine.py to be able to use the consructor
+# from engines.sternman_engine import Sternman # imports Sternman class from sternman_engine.py to be able to use the consructor
+# from engines.willoughby_engine import Willoughby # imports Willoughby class from willoughby_engine.py to be able to use the consructor
+# from tyres.carrigan_tyre import Carrigan
+# from tyres.octoprime_tyre import Octoprime
+from batteries import *
+from engines import *
+from tyres import *
+
 
 class CarFactory():
 
